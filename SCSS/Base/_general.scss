@@ -8,11 +8,11 @@ padding: 10px 5px;}
 
 #Trabajos p {background-color: $color-brown;}
 
-h1{font-size: 1.3rem}
+h1{font-size: 1.4rem;}
 
 h2 { @extend h1;}
 
-h2{font-size: 1.2;}
+h2{font-size: 1.2rem;}
 
 
 h3{font-size: 1rem;}
@@ -24,3 +24,6 @@ li { @extend h3;}
 ul{list-style: none;} 
 
 
+.carta{
+    margin-bottom: 40px;
+}

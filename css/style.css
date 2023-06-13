@@ -4,8 +4,19 @@
   padding: 0;
 }
 
-button:hover {
+boton:hover {
   background-color: rgb(178, 134, 219);
+}
+
+.boton {
+  font-size: large;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  color: white;
+  background-color: blueviolet;
 }
 
 body {
@@ -65,11 +76,11 @@ header nav a:hover {
 }
 
 h1, h2 {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 }
 
 h2 {
-  font-size: 1.2;
+  font-size: 1.2rem;
 }
 
 h3, li, p {
@@ -78,6 +89,10 @@ h3, li, p {
 
 ul {
   list-style: none;
+}
+
+.carta {
+  margin-bottom: 40px;
 }
 
 .container {
@@ -90,8 +105,9 @@ ul {
 }
 
 h1 span, h2 span {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   display: flex;
+  margin-right: 10px;
   align-items: center;
   justify-content: center;
   font-family: Helvetica, sans-serif;
@@ -111,12 +127,40 @@ h1 :hover span:nth-child(2), h2 :hover span:nth-child(2) {
 }
 
 h1 p, h2 p {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: Helvetica, sans-serif;
   text-shadow: 0 0 10px rgb(43, 8, 167), 0 0 20px rgba(75, 20, 179, 0.849), 0 0 40px rgb(52, 12, 97);
+}
+
+@media screen and (max-width: 376px) {
+  #nuestros-programas {
+    text-align: center;
+  }
+  .boton {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+  }
+}
+@media screen and (max-width: 576px) {
+  #nuestros-programas {
+    text-align: center;
+  }
+  p {
+    margin-bottom: 15px;
+  }
+  .boton {
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

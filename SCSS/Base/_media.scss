@@ -1,0 +1,29 @@
+@media screen and  (max-width: 376px) {
+    #nuestros-programas{
+        text-align: center;
+    }
+
+    .boton {
+        font-size: 1rem;
+        font-weight: bold;
+        padding: 5px 10px;
+        border-radius: 10px;
+        text-decoration: none;
+    }
+}
+
+@media screen and  (max-width: 576px) {
+    #nuestros-programas{
+        text-align: center;
+    }
+    p{
+        margin-bottom: 15px;
+    }
+    .boton {
+        font-size: 1.3rem;
+        font-weight: bold;
+        padding: 10px 15px;
+        border-radius: 10px;
+        text-decoration: none;
+    }
+}
