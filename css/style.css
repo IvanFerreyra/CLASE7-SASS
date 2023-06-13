@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+button:hover {
+  background-color: rgb(178, 134, 219);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(../img/19362653.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Lato", sans-serif;
+}
+
+header background-color:rgba(245,245,245) .logo {
+  margin: 0;
+  padding: 25px 30px;
+  font-weight: bold;
+  color: blueviolet;
+  font-size: medium;
+}
+header .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header nav {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 25px;
+}
+header nav a {
+  padding: 5px 12px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+header nav a:hover {
+  color: blueviolet;
+}
+
+#Nosotros h2 {
+  background-color: brown;
+}
+
+#Servicios h2 {
+  display: inline-block;
+  background-color: brown;
+}
+
+#Servicios h3, #Servicios li, #Servicios p {
+  display: grid;
+  padding: 10px 5px;
+}
+
+#Trabajos p {
+  background-color: brown;
+}
+
+h1, h2 {
+  font-size: 1.3rem;
+}
+
+h2 {
+  font-size: 1.2;
+}
+
+h3, li, p {
+  font-size: 1rem;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1400px;
+  margin: auto;
+}
+
+#Caracteristicas .container {
+  color: blueviolet;
+}
+
+h1 span, h2 span {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Helvetica, sans-serif;
+  transition: 0.7s linear;
+}
+
+h1 :hover span:nth-child(1), h2 :hover span:nth-child(1) {
+  margin-right: 5px;
+}
+
+h1 :hover span:nth-child(1)::after, h2 :hover span:nth-child(1)::after {
+  content: "!";
+}
+
+h1 :hover span:nth-child(2), h2 :hover span:nth-child(2) {
+  margin-left: 30px;
+}
+
+h1 p, h2 p {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Helvetica, sans-serif;
+  text-shadow: 0 0 10px rgb(43, 8, 167), 0 0 20px rgba(75, 20, 179, 0.849), 0 0 40px rgb(52, 12, 97);
+}
+
+/*# sourceMappingURL=style.css.map */
