@@ -6,6 +6,7 @@
 #Servicios h3 {display:grid;
 padding: 10px 5px;}
 
+
 #Trabajos p {background-color: $color-brown;}
 
 h1{font-size: 1.4rem;}
@@ -25,6 +26,7 @@ li { @extend h3;}
 
 ul{list-style: none;} 
 
+h5{font-size: 0.7rem;}
 
 .carta{
     margin-bottom: 40px;
