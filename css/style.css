@@ -87,6 +87,10 @@ h3, li, p {
   font-size: 1rem;
 }
 
+h4 {
+  font-size: 0.9rem;
+}
+
 ul {
   list-style: none;
 }
