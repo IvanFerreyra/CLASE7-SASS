@@ -139,6 +139,7 @@ h1 p, h2 p {
   text-shadow: 0 0 10px rgb(43, 8, 167), 0 0 20px rgba(75, 20, 179, 0.849), 0 0 40px rgb(52, 12, 97);
 }
 
+
 @media screen and (max-width: 376px) {
   #nuestros-programas {
     text-align: center;
