@@ -22,7 +22,7 @@ boton:hover {
 body {
   margin: 0;
   padding: 0;
-  background-image: url(../img/19362653.jpg);
+  background-image:url(../img/fondoescritorio.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -141,6 +141,8 @@ h1 p, h2 p {
   font-family: Helvetica, sans-serif;
   text-shadow: 0 0 10px rgb(43, 8, 167), 0 0 20px rgba(75, 20, 179, 0.849), 0 0 40px rgb(52, 12, 97);
 }
+
+
 
 @media screen and (max-width: 376px) {
   #nuestros-programas {
