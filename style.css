@@ -22,39 +22,11 @@ boton:hover {
 body {
   margin: 0;
   padding: 0;
-  background-color: black;
+  background-image: url(../img/fondoescritorio.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   font-family: "Lato", sans-serif;
-  color: white;
-}
-
-#Nosotros {
-  padding: 1rem;
-  line-height: 1.3rem;
-}
-#Nosotros p {
-  padding-bottom: 4rem;
-  color: white;
-}
-
-#programas {
-  padding: 1rem;
-  line-height: 1.3rem;
-  color: white;
-}
-#programas p {
-  padding-bottom: 4rem;
-}
-
-#Trabajos {
-  padding: 1rem;
-  line-height: 1.3rem;
-  color: white;
-}
-#Trabajos p {
-  padding-bottom: 3rem;
 }
 
 header background-color:rgba(245,245,245) .logo {
