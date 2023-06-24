@@ -61,18 +61,10 @@ header nav a:hover {
   background-color: brown;
 }
 
-#Servicios h2 {
-  display: inline-block;
-  background-color: brown;
-}
 
 #Servicios h3, #Servicios li, #Servicios p {
   display: grid;
   padding: 10px 5px;
-}
-
-#Trabajos p {
-  background-color: brown;
 }
 
 h1, h2 {
