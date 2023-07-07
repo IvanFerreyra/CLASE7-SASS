@@ -137,13 +137,17 @@ h5 {
   margin: 5px;
 }
 
+.card {
+  flex-direction: colum;
+}
+
 .container {
   max-width: 1400px;
   margin: auto;
 }
 
 #Caracteristicas .container {
-  color: white;
+  color: blueviolet;
 }
 
 h1 span, h2 span {
@@ -173,7 +177,7 @@ h1 p, h2 p {
   align-items: center;
   justify-content: center;
   font-family: Helvetica, sans-serif;
-  text-shadow: 0 0 10px rgb(226, 136, 18), 0 0 20px rgba(230, 119, 16, 0.849), 0 0 40px rgb(230, 141, 9);
+  text-shadow: 0 0 10px rgb(43, 8, 167), 0 0 20px rgba(75, 20, 179, 0.849), 0 0 40px rgb(52, 12, 97);
 }
 
 @media screen and (max-width: 376px) {
